@@ -175,7 +175,7 @@ function lifeoutdoors_theme_scripts() {
 
     // google maps API keys on contact page
     if (is_page('contact-us')) {
-        wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCIhWznK-Bo47A6t_UAoJBLOGH9OUAzut4', null, null, true);
+        wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js', null, null, true);
     }
 
 }
